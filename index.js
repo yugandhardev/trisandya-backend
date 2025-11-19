@@ -3,8 +3,8 @@ const express = require("express");
 const cors = require("cors");
 
 const app = express();
-const authRoutes = require("./routes/authRoutes");
-const taskRoutes = require("./routes/taskRoutes");
+const authRoutes = require("./src/routes/authRoutes");
+const taskRoutes = require("./src/routes/taskRoutes");
 
 app.use(cors());
 app.use(express.json());
